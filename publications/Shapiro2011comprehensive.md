@@ -145,7 +145,7 @@ Pairwise eventual convergence implies that any non-empty subset of replicas of t
 
 **Convergent Replicated Data Type (CvRDT, monotonic semilattice)** - state-based object with payload whose values form a semilattice and defined operation $merge(x,y) \eq x \sqcup_{v} y$ which receives updates monotonically advancing upwards according to $\leq_v$:
 - $compare(x, y) = x \leq_v y$
-- $equals(x, y) = x \leq_v y & y \leq_v x$
+- $equals(x, y) = x \leq_v y \wedge y \leq_v x$
 - $merge(x, y) = x \sqcup_{v} y$
 
 **Proposition 2.1** (Eventual Convergence of CvRDT replicas within liveness) + Proof
