@@ -15,4 +15,4 @@
 
 - [Original Go implementation of RON](https://github.com/gritzko/ron) by [Victor Grishchenko](https://github.com/gritzko)
 - [Haskell implementation of RON and RON-RDT](https://github.com/ff-notes/ron) by [Yuriy Syrovetskiy](https://github.com/cblp)
-- [Elixir implementation of RON](https://hexdocs.pm/ronex/api-reference.html)
+- [Elixir implementation of RON](https://github.com/flanfly/ronex) by [Kai Michaelis](https://github.com/flanfly)
